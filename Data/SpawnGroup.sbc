@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Viscount-Solo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Viscount]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>1</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Viscount-Duo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Viscount]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>-100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Viscount-Trio</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Viscount]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>-100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Marshal-Solo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Marshal]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.4</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 0941-B Marshal">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Marshal-Escort</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Marshal]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.2</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 0941-B Marshal">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>-100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup> 
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Sovereign-Solo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Sovereign]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.08</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 2142-B Sovereign">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Sovereign-Escort</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Sovereign]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.06</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 2142-B Sovereign">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>-100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Monarch-Solo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Monarch]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Monarch-Duo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Monarch]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.4</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Monarch-Escort</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Monarch]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.2</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Main-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>-100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Boss</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Boss]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:0.0001]
+			[NpcIonThrustPowerMultiply:0.0001]
+			[NpcHydroThrustForceMultiply:4]
+			[NpcIonThrustForceMultiply:4]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.001</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 2142-B Sovereign">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Boss-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0941-B Marshal">
+					<Position>
+						<X>0.0</X>
+						<Y>100.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>0.0</X>
+						<Y>-100.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0322-K Viscount">
+					<Position>
+						<X>-100.0</X>
+						<Y>.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+			
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>TRS-Vengeance-Squadron</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpawnConditionsProfiles:TRS-Vengeance-Squadron]
+			
+			[UseBlockReplacerProfile:true]
+			[IgnoreGlobalBlockReplacer:true]
+			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[ConfigureSpecialNpcThrusters:true]
+			[NpcHydroThrustPowerMultiply:5]
+			[NpcIonThrustPowerMultiply:5]
+			[NpcHydroThrustForceMultiply:10]
+			[NpcIonThrustForceMultiply:10]
+			
+			[FactionOwner:TRS]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>0.001</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TRS] 2142-B Sovereign">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>250</Speed>
+					<Behaviour>TRS-Boss-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 0941-B Marshal">
+					<Position>
+						<X>0.0</X>
+						<Y>100.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>0.0</X>
+						<Y>-100.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>250</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>250</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TRS] 2233-K Monarch">
+					<Position>
+						<X>-100.0</X>
+						<Y>.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>250</Speed>
+					<Behaviour>TRS-Escort-Behavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+			</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

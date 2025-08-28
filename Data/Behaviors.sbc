@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Main-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:TRS-Autopilot-MediumShip-A]
+        [SecondaryAutopilotData:TRS-Autopilot-MediumShip-B]
+
+        [TargetData:TRS-Target-Main-A]
+        [OverrideTargetData:TRS-Target-Main-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [WeaponSystem:TRS-Weapons-Standard]
+
+        [Triggers:TRS-Trigger-GrindDamage]
+        [TriggerGroups:TRS-TriggerGroup-Common]
+        [TriggerGroups:TRS-TriggerGroup-HydrogenMan]
+
+		[PlayerDistanceTrigger:3000]
+		[PlayerDistanceTimerTrigger:300]
+		
+      </Description>
+	</EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Station-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [WeaponsSystem:MES-Weapons-GenericStandard]
+		
+      </Description>
+	 </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Boss-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:TRS-Autopilot-MediumShip-A]
+        [SecondaryAutopilotData:TRS-Autopilot-MediumShip-B]
+
+        [TargetData:TRS-Target-Boss]
+		[OverrideTargetData:TRS-Target-Main-B
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [WeaponSystem:TRS-Weapons-Standard]
+
+        [Triggers:TRS-Trigger-GrindDamage]
+        [TriggerGroups:TRS-TriggerGroup-Common]
+        [TriggerGroups:TRS-TriggerGroup-HydrogenMan]
+
+		[PlayerDistanceTrigger:3000]
+		[PlayerDistanceTimerTrigger:300]
+		
+      </Description>
+	</EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Escort-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:TRS-Autopilot-MediumShip-A]
+        [SecondaryAutopilotData:TRS-Autopilot-MediumShip-B]
+
+        [TargetData:TRS-Target-Escort]
+		[OverrideTargetData:TRS-Target-Main-B
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [WeaponSystem:TRS-Weapons-Standard]
+
+        [Triggers:TRS-Trigger-GrindDamage]
+        [TriggerGroups:TRS-TriggerGroup-Common]
+        [TriggerGroups:TRS-TriggerGroup-HydrogenMan]
+
+		[PlayerDistanceTrigger:3000]
+		[PlayerDistanceTimerTrigger:300]
+		
+      </Description>
+	</EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Cargo-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Cargoship]
+		
+		[PlayerDistanceTrigger:10000]
+		[PlayerDistanceTimerTrigger:300]
+		
+      </Description>
+	</EntityComponent>
+
+	</EntityComponents>
+</Definitions>

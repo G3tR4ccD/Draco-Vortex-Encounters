@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Viscount</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [SpaceCargoShip:true]
+        [LunarCargoShip:true]
+
+		[UseThreatLevelCheck:true]
+		[ThreatLevelCheckRange:15000]
+		[ThreatScoreMinimum:500]
+
+      </Description>
+
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Monarch</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [SpaceCargoShip:true]
+        [LunarCargoShip:true]
+
+		[UseThreatLevelCheck:true]
+		[ThreatLevelCheckRange:15000]
+		[ThreatScoreMinimum:2500]
+
+      </Description>
+
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Marshal</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [SpaceCargoShip:true]
+        [LunarCargoShip:true]
+
+		[UseThreatLevelCheck:true]
+		[ThreatLevelCheckRange:15000]
+		[ThreatScoreMinimum:5000]
+
+      </Description>
+
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Sovereign</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [SpaceCargoShip:true]
+        [LunarCargoShip:true]
+
+		[UseThreatLevelCheck:true]
+		[ThreatLevelCheckRange:15000]
+		[ThreatScoreMinimum:7000]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Boss</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [FactionOverride:TRS]
+        [BossEncounterAny:true]
+        [BossCustomAnnounceEnable:true]
+        [BossCustomAnnounceAuthor:TRS Fleet Commander]
+        [BossCustomAnnounceMessage:This area is off-limits. Failure to comply will result in a hostile response.]
+        [BossCustomGPSLabel:The Rampant Systemlord Encounter]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:10000]
+
+        [RotateFirstCockpitToForward:true]
+
+      </Description>
+
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TRS-Vengeance-Squadron</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [FactionOverride:TRS]
+        [BossEncounterAny:true]
+        [BossCustomAnnounceEnable:true]
+        [BossCustomAnnounceAuthor:TSC Fleet Commander]
+        [BossCustomAnnounceMessage:This area is off-limits. Failure to comply will result in a hostile response.]
+        [BossCustomGPSLabel:The Rampant Systemlord Encounter]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:30000]
+
+        [RotateFirstCockpitToForward:true]
+
+      </Description>
+
+    </EntityComponent>
+
+
+  </EntityComponents>
+</Definitions>
